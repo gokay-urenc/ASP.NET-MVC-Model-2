@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelKavrami2", "ModelKavrami2\ModelKavrami2.csproj", "{49DE4CDD-63AC-4F10-9B16-FE2AFC779717}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49DE4CDD-63AC-4F10-9B16-FE2AFC779717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49DE4CDD-63AC-4F10-9B16-FE2AFC779717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49DE4CDD-63AC-4F10-9B16-FE2AFC779717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49DE4CDD-63AC-4F10-9B16-FE2AFC779717}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1855BC28-08C6-4EEC-A6E6-6EBC0C0B3B30}
+	EndGlobalSection
+EndGlobal

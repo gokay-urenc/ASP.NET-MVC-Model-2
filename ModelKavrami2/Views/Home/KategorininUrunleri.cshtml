@@ -1,0 +1,43 @@
+﻿@model List<Product>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>KategorininUrunleri</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <table class="table table-info table-bordered">
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Fiyatı</th>
+                <th>Stok</th>
+                <th>Kategori Adı</th>
+            </tr>
+            @foreach (var item in Model)
+            {
+            <tr>
+                <td>@item.ProductName</td>
+                <td>@item.UnitPrice</td>
+                @if (item.UnitsInStock <= 10)
+                {
+                    <td style="background-color:darkred">@item.UnitsInStock</td>
+                }
+                else
+                {
+                        <td>@item.UnitsInStock</td>
+                }
+
+                <td>@item.Category.CategoryName</td>
+            </tr>
+            }
+
+        </table>
+    </div>
+</body>
+</html>
